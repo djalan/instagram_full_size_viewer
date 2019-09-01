@@ -14,7 +14,7 @@
 
   "browser_action": {
     "default_icon": "icons/Instagram-icon.png",
-    "default_title": "Normal size"
+    "default_title": "Change size!"
   },
 
   "background": {
