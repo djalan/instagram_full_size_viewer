@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Instagram full size viewer",
+  "version": "1.0",
+  "description": "View full size Instagram photos in the same browser tab... with one click",
+  "homepage_url": "https://github.com/djalan/instagram_full_size_viewer",
+  "icons": {
+    "48": "icons/Instagram-icon.png"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/Instagram-icon.png",
+    "default_title": "Normal size"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
